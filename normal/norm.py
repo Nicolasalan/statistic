@@ -6,7 +6,7 @@ import math
 
 def norm(average: float, sigma: float, n: int, var1: float, var2: float, tip: int) -> float:
      """
-     Example: P(𝑥̅ ≤ 894)
+     Example Case 1: P(𝑥̅ ≤ 894)
      """
      if tip == 0:
           sigma =  math.sqrt(sigma)
@@ -29,6 +29,9 @@ def norm(average: float, sigma: float, n: int, var1: float, var2: float, tip: in
 
           return prob
      
+     """
+     Example Case 2: P(700 ≤ 𝑥̅ ≤ 894)
+     """
      elif tip == 1: 
           # calcula o erro padrão da média
           std_error = sigma / math.sqrt(n)
