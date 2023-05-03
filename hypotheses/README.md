@@ -10,16 +10,8 @@ Os testes de hipóteses podem ser bilaterais, monocaudais ou unilaterais, depend
 
 Por outro lado, um teste monocaudal é usado quando a afirmação se refere apenas a uma direção, como "maior" ou "menor". Já um teste unilateral é usado quando a hipótese alternativa sugere uma mudança significativa, independentemente da direção. Por exemplo, um teste unilateral poderia ser usado para verificar quanto tempo uma pessoa leva para percorrer uma determinada distância, independentemente de ser mais rápido ou mais lento.
 
-
-<center>
-
 $Z = \frac{\bar{X} - \mu}{\sqrt{\sigma^2/n}}$
-
-</center>
-
 
 O "z" é obtido a partir da fórmula e comparado com o valor crítico obtido a partir da tabela de distribuição normal. Se o valor de "Z" for maior que o valor tabelado, logo, a hipótese nula é descartada. Basicamente, esse valor crítico é um valor mínimo que precisa ser superado para que a hipótese nula seja rejeitada.
 
-```
-O valor crítico pode ser comparado ao tempo de cozimento de um bolo. A hipótese nula diz que para fazer um bolo leva 30 minutos (valor crítico) e a hipótese alternativa sugere que o tempo pode ser superior a 30 minutos ou inferior a 30 minutos. Se realizarmos os testes e descobrirmos que o tempo é superior a 30 minutos (valor crítico), logo, a hipótese nula é rejeitada.
-```
+> O valor crítico pode ser comparado ao tempo de cozimento de um bolo. A hipótese nula diz que para fazer um bolo leva 30 minutos (valor crítico) e a hipótese alternativa sugere que o tempo pode ser superior a 30 minutos ou inferior a 30 minutos. Se realizarmos os testes e descobrirmos que o tempo é superior a 30 minutos (valor crítico), logo, a hipótese nula é rejeitada.
